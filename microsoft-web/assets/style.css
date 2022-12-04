@@ -1,0 +1,130 @@
+@import url("https://fonts.cdnfonts.com/css/microsoft-sans-serif");
+/* General CSS */
+* {
+  margin: 0px;
+  font-family: "Microsoft Sans Serif", sans-serif;
+}
+/* Nav CSS */
+header {
+  margin: -5px;
+}
+
+header > nav > ul > li > img {
+  padding: -10px;
+}
+
+.right-nav {
+  float: right;
+  margin: -17.5px;
+}
+
+.right-nav li {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+ul li a:hover {
+  border-bottom: 3px solid black;
+}
+
+.nav-link {
+  padding-left: 0px;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid black;
+}
+
+.notice-container {
+  background: #950c17 !important;
+  color: white;
+  text-align: center;
+  height: 100px;
+  font-size: 1.5rem;
+}
+/* MAIN CONTAINER CSS */
+.main-image-container {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Family-Simplified-FY23HOLPM:VP5-1920x600);
+  background-size: cover;
+  height: 600px;
+  color: black;
+  display: flex;
+}
+
+.main-container-card {
+  width: 500px;
+  float: right;
+  padding-top: 200px;
+  padding-left: 1000px;
+}
+/* ICON CSS */
+.icons div {
+  display: inline-block;
+  color: black;
+  align-items: center;
+}
+
+.icons {
+  margin: 25 0 25 0;
+  text-align: center;
+  padding: 80px;
+  align-items: center;
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.icons div a {
+  /* text-decoration: none; */
+  color: black;
+  /* font: bold; */
+}
+
+.icons > div > img {
+  display: inline-block;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Cyber Deals CSS */
+.deal-card {
+  background: white;
+  text-align: center;
+  height: 40px;
+  width: 100;
+  color: #950c17;
+  font-size: 1.5em;
+}
+
+.shop-card a {
+  background: #000;
+  color: #fff;
+  height: 30px;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+/* Microsoft Image */
+ul > li > img {
+  height: 30px;
+}
+
+header {
+  height: 85px;
+}
+
+ul > li > a {
+  flex-wrap: wrap;
+}
